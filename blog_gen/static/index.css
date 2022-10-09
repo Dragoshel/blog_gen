@@ -1,0 +1,20 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	min-height: 100vh;
+	background-color: #0f172a;
+}
+
+main {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.shadow {
+	box-shadow: 4px 4px 0px 0px #b91c1c,6px 6px 0px 0px #dc2626,8px 8px 0px 0px #ef4444;
+}
